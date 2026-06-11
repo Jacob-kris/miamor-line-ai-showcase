@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">Mi Amor LINE AI Customer Service System Architecture</title>
+  <desc id="desc">A public portfolio architecture diagram showing LINE users, webhook APIs, AI workflow, Supabase storage, admin UI, and scheduled follow-up jobs.</desc>
+  <defs>
+    <style>
+      .bg { fill: #fffafa; }
+      .title { fill: #2b2528; font-family: Arial, sans-serif; font-size: 34px; font-weight: 800; }
+      .subtitle { fill: #73676b; font-family: Arial, sans-serif; font-size: 17px; }
+      .label { fill: #342c2f; font-family: Arial, sans-serif; font-size: 21px; font-weight: 700; }
+      .small { fill: #6c5f64; font-family: Arial, sans-serif; font-size: 15px; }
+      .tiny { fill: #7c7074; font-family: Arial, sans-serif; font-size: 13px; }
+      .box { fill: #ffffff; stroke: #ead4d8; stroke-width: 2; rx: 16; }
+      .main { fill: #fff7f8; stroke: #9b4f66; stroke-width: 2.5; rx: 18; }
+      .admin { fill: #f8fbfa; stroke: #84b6a9; stroke-width: 2; rx: 16; }
+      .data { fill: #fbf7ef; stroke: #d9a96b; stroke-width: 2; rx: 16; }
+      .ai { fill: #f8f4ff; stroke: #9b85c8; stroke-width: 2; rx: 16; }
+      .line { stroke: #9b4f66; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .line2 { stroke: #84b6a9; stroke-width: 3; fill: none; marker-end: url(#arrowGreen); }
+      .line3 { stroke: #d9a96b; stroke-width: 3; fill: none; marker-end: url(#arrowGold); }
+      .divider { stroke: #ead4d8; stroke-width: 1.5; stroke-dasharray: 8 8; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#9b4f66"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#84b6a9"/>
+    </marker>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#d9a96b"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1280" height="760"/>
+
+  <text class="title" x="64" y="70">Mi Amor LINE AI Customer Service System</text>
+  <text class="subtitle" x="64" y="102">Portfolio architecture: LINE customer flow, AI workflow, protected admin tools, and scheduled care follow-ups.</text>
+
+  <line class="divider" x1="64" y1="142" x2="1216" y2="142"/>
+
+  <rect class="box" x="72" y="200" width="190" height="118"/>
+  <text class="label" x="104" y="245">LINE User</text>
+  <text class="small" x="104" y="276">Course inquiry</text>
+  <text class="small" x="104" y="300">Questionnaire</text>
+
+  <rect class="box" x="72" y="430" width="190" height="118"/>
+  <text class="label" x="104" y="475">Shop Admin</text>
+  <text class="small" x="104" y="506">Care workbench</text>
+  <text class="small" x="104" y="530">Record review</text>
+
+  <rect class="main" x="342" y="188" width="230" height="142"/>
+  <text class="label" x="376" y="235">LINE Webhook</text>
+  <text class="small" x="376" y="268">Receives events</text>
+  <text class="small" x="376" y="294">Verifies signature</text>
+
+  <rect class="main" x="650" y="188" width="230" height="142"/>
+  <text class="label" x="684" y="235">Workflow Engine</text>
+  <text class="small" x="684" y="268">Course state machine</text>
+  <text class="small" x="684" y="294">Rules and fallback</text>
+
+  <rect class="ai" x="970" y="188" width="230" height="142"/>
+  <text class="label" x="1004" y="235">OpenAI API</text>
+  <text class="small" x="1004" y="268">AI service replies</text>
+  <text class="small" x="1004" y="294">Prompt boundaries</text>
+
+  <rect class="admin" x="342" y="418" width="230" height="142"/>
+  <text class="label" x="376" y="465">Admin UI</text>
+  <text class="small" x="376" y="498">Owner-only workbench</text>
+  <text class="small" x="376" y="524">Protected actions</text>
+
+  <rect class="admin" x="650" y="418" width="230" height="142"/>
+  <text class="label" x="684" y="465">Protected API</text>
+  <text class="small" x="684" y="498">Auth checks</text>
+  <text class="small" x="684" y="524">Server-side writes</text>
+
+  <rect class="data" x="970" y="400" width="230" height="178"/>
+  <text class="label" x="1004" y="445">Supabase</text>
+  <text class="small" x="1004" y="478">line_customers</text>
+  <text class="small" x="1004" y="504">student_course_records</text>
+  <text class="small" x="1004" y="530">followup_tasks</text>
+  <text class="small" x="1004" y="556">admin_sessions</text>
+
+  <rect class="data" x="650" y="620" width="230" height="86"/>
+  <text class="label" x="684" y="655">Vercel Cron</text>
+  <text class="small" x="684" y="682">Scheduled care jobs</text>
+
+  <path class="line" d="M 262 259 C 296 259, 306 259, 342 259"/>
+  <path class="line" d="M 572 259 C 606 259, 616 259, 650 259"/>
+  <path class="line" d="M 880 259 C 914 259, 936 259, 970 259"/>
+  <path class="line" d="M 970 306 C 914 364, 620 364, 572 306"/>
+  <path class="line" d="M 650 296 C 560 366, 340 350, 218 318"/>
+
+  <path class="line2" d="M 262 489 C 296 489, 306 489, 342 489"/>
+  <path class="line2" d="M 572 489 C 606 489, 616 489, 650 489"/>
+  <path class="line2" d="M 880 489 C 914 489, 936 489, 970 489"/>
+
+  <path class="line3" d="M 765 620 C 800 590, 882 550, 970 535"/>
+  <path class="line3" d="M 880 663 C 986 650, 1080 606, 1085 578"/>
+
+  <text class="tiny" x="388" y="170">Vercel Serverless Functions</text>
+  <text class="tiny" x="385" y="590">Browser session + admin ticket</text>
+  <text class="tiny" x="992" y="610">No secrets or real customer data shown</text>
+</svg>
