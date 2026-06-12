@@ -21,6 +21,10 @@ Public showcase for a LINE-based AI customer service and student care workflow s
 
 ![System architecture](assets/diagrams/system-architecture.svg)
 
+## Agent Workflow
+
+![Agent workflow](assets/diagrams/agent-workflow.svg)
+
 ## About This Showcase
 
 This repository is designed for portfolio and interview review. It focuses on product thinking, AI workflow design, LINE Bot integration, Supabase-backed state management, and the operational boundary between AI replies and admin workflows.

@@ -41,6 +41,12 @@ High-level flow:
 6. The Admin UI helps staff manage student care status and reminder tasks.
 7. Vercel Cron triggers scheduled reminders and follow-up tasks.
 
+## Agent Workflow
+
+![Agent workflow](assets/diagrams/agent-workflow.svg)
+
+This diagram highlights the trust boundary of the AI workflow: AI only generates replies within product rules and prompt guardrails, while customer state, questionnaire progress, scheduled tasks, admin permissions, and database writes stay under server-side workflow control.
+
 ## Core Features
 
 - LINE Bot webhook integration
@@ -110,7 +116,6 @@ Any demo video will use anonymized data only. It will not show real customer rec
 ## Roadmap
 
 - Add a short anonymized demo video.
-- Add a clearer Agent workflow diagram.
 - Add more anonymized demo cases.
 - Improve production hardening around follow-up idempotency, observability, access control, and data privacy workflows.
 

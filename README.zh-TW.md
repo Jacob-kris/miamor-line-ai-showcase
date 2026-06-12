@@ -41,6 +41,12 @@
 6. Admin UI 讓店家管理學生關懷狀態與提醒任務。
 7. Vercel Cron 觸發排程提醒與關懷任務。
 
+## Agent Workflow
+
+![Agent workflow](assets/diagrams/agent-workflow.svg)
+
+這張圖補充說明 AI workflow 的信任邊界：AI 只負責在產品規則與 prompt guardrails 內產生回覆；客戶狀態、問卷進度、排程任務、admin 權限與資料寫入都由 server-side workflow 和 database 控制。
+
 ## 核心功能
 
 - LINE Bot webhook integration
@@ -110,7 +116,6 @@
 ## Roadmap
 
 - 補一支短版匿名 demo video。
-- 補更清楚的 Agent workflow diagram。
 - 補更多匿名 demo case。
 - 強化 production hardening，例如 follow-up idempotency、observability、access control 與資料隱私流程。
 
