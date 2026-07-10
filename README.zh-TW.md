@@ -23,13 +23,15 @@
 
 以下截圖皆為匿名 demo 資料，不包含真實姓名、LINE ID、網址、token 或私密紀錄。
 
-| Search workflow | Records workflow |
-|---|---|
-| ![Admin search demo](assets/screenshots/admin-search-demo.png) | ![Admin records demo](assets/screenshots/admin-records-demo.png) |
+| LINE conversation | Search workflow | Records workflow |
+|---|---|---|
+| ![LINE conversation demo](assets/screenshots/line-conversation-demo.png) | ![Admin search demo](assets/screenshots/admin-search-demo.png) | ![Admin records demo](assets/screenshots/admin-records-demo.png) |
 
 ## 系統架構
 
 ![System architecture](assets/diagrams/system-architecture.svg)
+
+履歷 / 簡報用 PNG 版：[miamor-architecture-resume.png](assets/diagrams/miamor-architecture-resume.png)
 
 高層流程：
 
@@ -84,7 +86,7 @@
 目前成果定位為可展示的 AI application prototype：
 
 - 已完成 LINE AI 客服與學生關懷 workflow 的整體設計。
-- 已建立 admin workbench 的匿名展示畫面。
+- 已建立 LINE 對話與 admin workbench 的匿名展示畫面。
 - 已整理成面試與 GitHub 作品集可讀的架構文件。
 - 已完成 private source repo 與 public showcase repo 的分工規劃。
 

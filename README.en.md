@@ -23,13 +23,15 @@ The goal of this project is to turn AI customer service into a workflow-connecte
 
 All screenshots use anonymized demo data. They do not contain real names, LINE IDs, URLs, tokens, or private records.
 
-| Search workflow | Records workflow |
-|---|---|
-| ![Admin search demo](assets/screenshots/admin-search-demo.png) | ![Admin records demo](assets/screenshots/admin-records-demo.png) |
+| LINE conversation | Search workflow | Records workflow |
+|---|---|---|
+| ![LINE conversation demo](assets/screenshots/line-conversation-demo.png) | ![Admin search demo](assets/screenshots/admin-search-demo.png) | ![Admin records demo](assets/screenshots/admin-records-demo.png) |
 
 ## System Architecture
 
 ![System architecture](assets/diagrams/system-architecture.svg)
+
+Presentation-ready PNG version: [miamor-architecture-resume.png](assets/diagrams/miamor-architecture-resume.png)
 
 High-level flow:
 
@@ -84,7 +86,7 @@ This diagram highlights the trust boundary of the AI workflow: AI only generates
 The project is currently positioned as a showcaseable AI application prototype:
 
 - Designed an end-to-end LINE AI customer service and student care workflow.
-- Built anonymized admin workbench screenshots for portfolio presentation.
+- Built anonymized LINE conversation and admin workbench screenshots for portfolio presentation.
 - Organized architecture documentation for GitHub and interview use.
 - Established a clear split between the private source repo and the public showcase repo.
 

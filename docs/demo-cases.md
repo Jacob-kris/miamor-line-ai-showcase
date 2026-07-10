@@ -12,6 +12,10 @@
 - AI customer-service response
 - Workflow routing
 
+展示截圖：
+
+![LINE conversation demo](../assets/screenshots/line-conversation-demo.png)
+
 ## Demo Case 2：學生關懷工作台搜尋
 
 店家在 admin workbench 搜尋學生，查看是否已結業、是否啟用關懷，以及是否需要整理紀錄。

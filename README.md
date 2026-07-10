@@ -13,13 +13,15 @@ Public showcase for a LINE-based AI customer service and student care workflow s
 
 ## Preview
 
-| Search workflow | Records workflow |
-|---|---|
-| ![Admin search demo](assets/screenshots/admin-search-demo.png) | ![Admin records demo](assets/screenshots/admin-records-demo.png) |
+| LINE conversation | Search workflow | Records workflow |
+|---|---|---|
+| ![LINE conversation demo](assets/screenshots/line-conversation-demo.png) | ![Admin search demo](assets/screenshots/admin-search-demo.png) | ![Admin records demo](assets/screenshots/admin-records-demo.png) |
 
 ## Architecture
 
 ![System architecture](assets/diagrams/system-architecture.svg)
+
+Presentation-ready PNG version: [miamor-architecture-resume.png](assets/diagrams/miamor-architecture-resume.png)
 
 ## Agent Workflow
 

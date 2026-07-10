@@ -18,6 +18,8 @@
 
 ![System architecture](../assets/diagrams/system-architecture.svg)
 
+履歷 / 簡報用 PNG 版：[miamor-architecture-resume.png](../assets/diagrams/miamor-architecture-resume.png)
+
 ## 主要元件
 
 ### LINE User

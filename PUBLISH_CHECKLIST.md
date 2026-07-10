@@ -13,7 +13,7 @@
 
 - [x] README is prepared.
 - [x] Architecture diagram is included.
-- [x] Demo screenshots are included.
+- [x] Demo screenshots are included, including anonymized LINE conversation and admin workbench screens.
 - [x] AI workflow summary is included.
 - [x] Demo cases are included.
 - [x] Interview summary is included.
